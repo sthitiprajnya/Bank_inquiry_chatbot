@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+.navbar{
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color:  rgb(239, 239, 239);
+    z-index: 9;
+    
+}
+.nav{
+    padding: 10px 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    color: rgb(46, 56, 171);
+    
+    
+}
+.nav span{
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: rgb(46, 56, 171) ;
+    margin-left: 4px;
+    
+}
+.brand-logo {
+    height: 60px;
+    
+    
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+}
+.search{
+    width: 500px;
+    display: flex;
+
+}
+.search-box{
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 1px solid orangered;
+    background: none;
+    text-transform: capitalize;
+    color: white;
+    outline: none;
+
+}
+.search-btn{
+    width: 20%;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    background: orangered;
+    color: white;
+    font-size: 15px;
+    text-transform: capitalize;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.search-box::placeholder{
+    color: orangered;
+}
+.nav-items a{
+    margin-left: 20px;
+
+}
+.nav-items a img{
+    width: 30px;
+}
+.link-container{
+    width: 100%;
+    display: flex;
+    padding: 10px 10vw;
+    justify-content: center;
+    list-style: none;
+    border-top: 1px solid orangered;
+}
+.link{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 10px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: orangered;
+    
+    transition: .5s;
+}
+.link:hover{
+    opacity: 1;
+}
